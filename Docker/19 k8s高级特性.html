@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.27">
+    <link rel="icon" href="/images/favicon-32x32.png"><title>静默のBlog</title><meta name="description" content="静默的Vuepress Blog">
+    <link rel="preload" href="/assets/js/runtime~app.04a0d472.js" as="script"><link rel="preload" href="/assets/css/styles.e85dcd96.css" as="style"><link rel="preload" href="/assets/js/95615.9c1b1e17.js" as="script"><link rel="preload" href="/assets/js/app.d9590c28.js" as="script">
+    <link rel="stylesheet" href="/assets/css/styles.e85dcd96.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><!----><span class="site-name can-hide">静默のBlog</span></a></span><div class="navbar-links-wrapper" style=""><!--[--><!--]--><nav class="navbar-links can-hide"><!--[--><div class="navbar-links-item"><a href="/topicNav/" class="nav-link" aria-label="📗Menu"><!--[--><!--]--> 📗Menu <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/aboutme/" class="nav-link" aria-label="AboutMe"><!--[--><!--]--> AboutMe <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://github.com/Q10Viking/q10viking.github.io" rel="noopener noreferrer" target="_blank" aria-label="Github"><!--[--><!--]--> Github <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-dark-button" title="toggle dark mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><div id="docsearch-container"></div></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-links"><!--[--><div class="navbar-links-item"><a href="/topicNav/" class="nav-link" aria-label="📗Menu"><!--[--><!--]--> 📗Menu <!--[--><!--]--></a></div><div class="navbar-links-item"><a href="/aboutme/" class="nav-link" aria-label="AboutMe"><!--[--><!--]--> AboutMe <!--[--><!--]--></a></div><div class="navbar-links-item"><a class="nav-link external" href="https://github.com/Q10Viking/q10viking.github.io" rel="noopener noreferrer" target="_blank" aria-label="Github"><!--[--><!--]--> Github <span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-links"><!--[--><!--[--><p class="sidebar-heading sidebar-item"></p><ul class=""><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#replicaset" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="ReplicaSet"><!--[--><!--]--> ReplicaSet <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#configmap" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="ConfigMap"><!--[--><!--]--> ConfigMap <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#volume" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="Volume"><!--[--><!--]--> Volume <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#ingress😘" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="Ingress😘"><!--[--><!--]--> Ingress😘 <!--[--><!--]--></a><ul class="sidebar-sub-items"><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#安装" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="安装"><!--[--><!--]--> 安装 <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#配置访问规则" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="配置访问规则"><!--[--><!--]--> 配置访问规则 <!--[--><!--]--></a><!----><!--]--></li></ul><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#配置管理" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="配置管理"><!--[--><!--]--> 配置管理 <!--[--><!--]--></a><ul class="sidebar-sub-items"><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#使用" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="使用"><!--[--><!--]--> 使用 <!--[--><!--]--></a><!----><!--]--></li></ul><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#存储卷的使用❤️" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="存储卷的使用❤️"><!--[--><!--]--> 存储卷的使用❤️ <!--[--><!--]--></a><ul class="sidebar-sub-items"><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#准备配置文件" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="准备配置文件"><!--[--><!--]--> 准备配置文件 <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#部署❤️" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="部署❤️"><!--[--><!--]--> 部署❤️ <!--[--><!--]--></a><!----><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#暴露服务测试" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="暴露服务测试"><!--[--><!--]--> 暴露服务测试 <!--[--><!--]--></a><!----><!--]--></li></ul><!--]--></li><li><!--[--><a aria-current="page" href="/Docker/19%20k8s%E9%AB%98%E7%BA%A7%E7%89%B9%E6%80%A7.html#小结" class="router-link-active router-link-exact-active nav-link sidebar-item" aria-label="小结"><!--[--><!--]--> 小结 <!--[--><!--]--></a><!----><!--]--></li></ul><!--]--><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><h2 id="replicaset" tabindex="-1"><a class="header-anchor" href="#replicaset" aria-hidden="true">#</a> ReplicaSet</h2><p>ReplicaSet确保任何时间都有指定数量的Pod副本在运行。通常用来保证给定数量的、完全相同的Pod的可用性。建议使用Deployment来管理ReplicaSet，而不是直接使用ReplicaSet。</p><h2 id="configmap" tabindex="-1"><a class="header-anchor" href="#configmap" aria-hidden="true">#</a> ConfigMap</h2><p>ConfigMap是一种API对象，用来将非机密性的数据保存到键值对中。使用时，Pod可以将其用作环境变量、命令行参数或者存储卷中的配置文件。使用ConfigMap可以将你的配置数据和应用程序代码分开</p><h2 id="volume" tabindex="-1"><a class="header-anchor" href="#volume" aria-hidden="true">#</a> Volume</h2><p>Volume指的是存储卷，包含可被Pod中容器访问的数据目录。容器中的文件在磁盘上是临时存放的，当容器崩溃时文件会丢失，同时无法在多个Pod中共享文件，通过使用存储卷可以解决这两个问题。</p><p>常用的存储卷有如下几种：</p><ul><li>configMap：configMap卷提供了向Pod注入配置数据的方法。ConfigMap对象中存储的数据可以被configMap类型的卷引用，然后被Pod中运行的容器化应用使用。</li><li>emptyDir：emptyDir卷可用于存储缓存数据。当Pod分派到某个Node上时，emptyDir卷会被创建，并且Pod在该节点上运行期间，卷一直存在。当Pod被从节点上删除时emptyDir卷中的数据也会被永久删除。</li><li>hostPath：hostPath卷能将主机节点文件系统上的文件或目录挂载到你的Pod中。在Minikube中的主机指的是Minikube所在虚拟机。</li><li>local：local卷所代表的是某个被挂载的本地存储设备，例如磁盘、分区或者目录。local卷只能用作静态创建的持久卷，尚不支持动态配置。</li><li>nfs：nfs卷能将NFS（网络文件系统）挂载到你的Pod中。</li><li>persistentVolumeClaim：persistentVolumeClaim卷用来将持久卷（PersistentVolume）挂载到Pod中。持久卷（PV）是集群中的一块存储，可以由管理员事先供应，或者使用存储类（Storage Class）来动态供应，持久卷是集群资源类似于节点</li></ul><h2 id="ingress😘" tabindex="-1"><a class="header-anchor" href="#ingress😘" aria-hidden="true">#</a> Ingress😘</h2><p>通过K8S的Ingress资源可以实现类似Nginx的基于域名访问，从而实现Pod的负载均衡访问。</p><p><img src="/images/Docker/111179.png" alt="https://note.youdao.com/yws/public/resource/bc7bee305611b52d6900ba209a92bd4d/xmlnote/CF0D33EA656C4B80A3161D651F0EC02E/111179"></p><p><strong>安装Ingress</strong></p><p>进入页面<a href="https://github.com/kubernetes/ingress-nginx/blob/nginx-0.20.0/deploy/mandatory.yaml" target="_blank" rel="noopener noreferrer">ingress-nginx/mandatory.yaml at nginx-0.20.0 · kubernetes/ingress-nginx · GitHub<span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span></a>，将里面内容复制，保存到k8s master机器上的一个文件ingress-controller.yaml里。运行网上的这个有问题，所以直接试下面的。</p><details class="custom-container details"><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Namespace
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ConfigMap
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>configuration
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ConfigMap
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> tcp<span class="token punctuation">-</span>services
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ConfigMap
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> udp<span class="token punctuation">-</span>services
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>serviceaccount
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1beta1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>clusterrole
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">rules</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> configmaps
+      <span class="token punctuation">-</span> endpoints
+      <span class="token punctuation">-</span> nodes
+      <span class="token punctuation">-</span> pods
+      <span class="token punctuation">-</span> secrets
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> list
+      <span class="token punctuation">-</span> watch
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> nodes
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> services
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+      <span class="token punctuation">-</span> list
+      <span class="token punctuation">-</span> watch
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;extensions&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ingresses
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+      <span class="token punctuation">-</span> list
+      <span class="token punctuation">-</span> watch
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> events
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> create
+      <span class="token punctuation">-</span> patch
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;extensions&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> ingresses/status
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> update
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1beta1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Role
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>role
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">rules</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> configmaps
+      <span class="token punctuation">-</span> pods
+      <span class="token punctuation">-</span> secrets
+      <span class="token punctuation">-</span> namespaces
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> configmaps
+    <span class="token key atrule">resourceNames</span><span class="token punctuation">:</span>
+      <span class="token comment"># Defaults to &quot;&lt;election-id&gt;-&lt;ingress-class&gt;&quot;</span>
+      <span class="token comment"># Here: &quot;&lt;ingress-controller-leader&gt;-&lt;nginx&gt;&quot;</span>
+      <span class="token comment"># This has to be adapted if you change either parameter</span>
+      <span class="token comment"># when launching the nginx-ingress-controller.</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;ingress-controller-leader-nginx&quot;</span>
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+      <span class="token punctuation">-</span> update
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> configmaps
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> create
+  <span class="token punctuation">-</span> <span class="token key atrule">apiGroups</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token string">&quot;&quot;</span>
+    <span class="token key atrule">resources</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> endpoints
+    <span class="token key atrule">verbs</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> get
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1beta1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> RoleBinding
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>role<span class="token punctuation">-</span>nisa<span class="token punctuation">-</span>binding
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">roleRef</span><span class="token punctuation">:</span>
+  <span class="token key atrule">apiGroup</span><span class="token punctuation">:</span> rbac.authorization.k8s.io
+  <span class="token key atrule">kind</span><span class="token punctuation">:</span> Role
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>role
+<span class="token key atrule">subjects</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>serviceaccount
+    <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> rbac.authorization.k8s.io/v1beta1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRoleBinding
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>clusterrole<span class="token punctuation">-</span>nisa<span class="token punctuation">-</span>binding
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">roleRef</span><span class="token punctuation">:</span>
+  <span class="token key atrule">apiGroup</span><span class="token punctuation">:</span> rbac.authorization.k8s.io
+  <span class="token key atrule">kind</span><span class="token punctuation">:</span> ClusterRole
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>clusterrole
+<span class="token key atrule">subjects</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">kind</span><span class="token punctuation">:</span> ServiceAccount
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>serviceaccount
+    <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+
+<span class="token punctuation">---</span>
+
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> DaemonSet 
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>controller
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+      <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+        <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+      <span class="token key atrule">annotations</span><span class="token punctuation">:</span>
+        <span class="token key atrule">prometheus.io/port</span><span class="token punctuation">:</span> <span class="token string">&quot;10254&quot;</span>
+        <span class="token key atrule">prometheus.io/scrape</span><span class="token punctuation">:</span> <span class="token string">&quot;true&quot;</span>
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">hostNetwork</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+      <span class="token key atrule">serviceAccountName</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>serviceaccount
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>controller
+          <span class="token key atrule">image</span><span class="token punctuation">:</span> siriuszg/nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>controller<span class="token punctuation">:</span>0.20.0
+          <span class="token key atrule">args</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> /nginx<span class="token punctuation">-</span>ingress<span class="token punctuation">-</span>controller
+            <span class="token punctuation">-</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>configmap=$(POD_NAMESPACE)/nginx<span class="token punctuation">-</span>configuration
+            <span class="token punctuation">-</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>tcp<span class="token punctuation">-</span>services<span class="token punctuation">-</span>configmap=$(POD_NAMESPACE)/tcp<span class="token punctuation">-</span>services
+            <span class="token punctuation">-</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>udp<span class="token punctuation">-</span>services<span class="token punctuation">-</span>configmap=$(POD_NAMESPACE)/udp<span class="token punctuation">-</span>services
+            <span class="token punctuation">-</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>publish<span class="token punctuation">-</span>service=$(POD_NAMESPACE)/ingress<span class="token punctuation">-</span>nginx
+            <span class="token punctuation">-</span> <span class="token punctuation">-</span><span class="token punctuation">-</span>annotations<span class="token punctuation">-</span>prefix=nginx.ingress.kubernetes.io
+          <span class="token key atrule">securityContext</span><span class="token punctuation">:</span>
+            <span class="token key atrule">allowPrivilegeEscalation</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+            <span class="token key atrule">capabilities</span><span class="token punctuation">:</span>
+              <span class="token key atrule">drop</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> ALL
+              <span class="token key atrule">add</span><span class="token punctuation">:</span>
+                <span class="token punctuation">-</span> NET_BIND_SERVICE
+            <span class="token comment"># www-data -&gt; 33</span>
+            <span class="token key atrule">runAsUser</span><span class="token punctuation">:</span> <span class="token number">33</span>
+          <span class="token key atrule">env</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> POD_NAME
+              <span class="token key atrule">valueFrom</span><span class="token punctuation">:</span>
+                <span class="token key atrule">fieldRef</span><span class="token punctuation">:</span>
+                  <span class="token key atrule">fieldPath</span><span class="token punctuation">:</span> metadata.name
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> POD_NAMESPACE
+              <span class="token key atrule">valueFrom</span><span class="token punctuation">:</span>
+                <span class="token key atrule">fieldRef</span><span class="token punctuation">:</span>
+                  <span class="token key atrule">fieldPath</span><span class="token punctuation">:</span> metadata.namespace
+          <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> http
+              <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+            <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> https
+              <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">443</span>
+          <span class="token key atrule">livenessProbe</span><span class="token punctuation">:</span>
+            <span class="token key atrule">failureThreshold</span><span class="token punctuation">:</span> <span class="token number">3</span>
+            <span class="token key atrule">httpGet</span><span class="token punctuation">:</span>
+              <span class="token key atrule">path</span><span class="token punctuation">:</span> /healthz
+              <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">10254</span>
+              <span class="token key atrule">scheme</span><span class="token punctuation">:</span> HTTP
+            <span class="token key atrule">initialDelaySeconds</span><span class="token punctuation">:</span> <span class="token number">10</span>
+            <span class="token key atrule">periodSeconds</span><span class="token punctuation">:</span> <span class="token number">10</span>
+            <span class="token key atrule">successThreshold</span><span class="token punctuation">:</span> <span class="token number">1</span>
+            <span class="token key atrule">timeoutSeconds</span><span class="token punctuation">:</span> <span class="token number">10</span>
+          <span class="token key atrule">readinessProbe</span><span class="token punctuation">:</span>
+            <span class="token key atrule">failureThreshold</span><span class="token punctuation">:</span> <span class="token number">3</span>
+            <span class="token key atrule">httpGet</span><span class="token punctuation">:</span>
+              <span class="token key atrule">path</span><span class="token punctuation">:</span> /healthz
+              <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">10254</span>
+              <span class="token key atrule">scheme</span><span class="token punctuation">:</span> HTTP
+            <span class="token key atrule">periodSeconds</span><span class="token punctuation">:</span> <span class="token number">10</span>
+            <span class="token key atrule">successThreshold</span><span class="token punctuation">:</span> <span class="token number">1</span>
+            <span class="token key atrule">timeoutSeconds</span><span class="token punctuation">:</span> <span class="token number">10</span>
+
+<span class="token punctuation">---</span>
+<span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Service
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token comment">#type: NodePort</span>
+  <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> http
+    <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">80</span>
+    <span class="token key atrule">targetPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+    <span class="token key atrule">protocol</span><span class="token punctuation">:</span> TCP
+  <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> https
+    <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">443</span>
+    <span class="token key atrule">targetPort</span><span class="token punctuation">:</span> <span class="token number">443</span>
+    <span class="token key atrule">protocol</span><span class="token punctuation">:</span> TCP
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app.kubernetes.io/name</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+    <span class="token key atrule">app.kubernetes.io/part-of</span><span class="token punctuation">:</span> ingress<span class="token punctuation">-</span>nginx
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br><span class="line-number">42</span><br><span class="line-number">43</span><br><span class="line-number">44</span><br><span class="line-number">45</span><br><span class="line-number">46</span><br><span class="line-number">47</span><br><span class="line-number">48</span><br><span class="line-number">49</span><br><span class="line-number">50</span><br><span class="line-number">51</span><br><span class="line-number">52</span><br><span class="line-number">53</span><br><span class="line-number">54</span><br><span class="line-number">55</span><br><span class="line-number">56</span><br><span class="line-number">57</span><br><span class="line-number">58</span><br><span class="line-number">59</span><br><span class="line-number">60</span><br><span class="line-number">61</span><br><span class="line-number">62</span><br><span class="line-number">63</span><br><span class="line-number">64</span><br><span class="line-number">65</span><br><span class="line-number">66</span><br><span class="line-number">67</span><br><span class="line-number">68</span><br><span class="line-number">69</span><br><span class="line-number">70</span><br><span class="line-number">71</span><br><span class="line-number">72</span><br><span class="line-number">73</span><br><span class="line-number">74</span><br><span class="line-number">75</span><br><span class="line-number">76</span><br><span class="line-number">77</span><br><span class="line-number">78</span><br><span class="line-number">79</span><br><span class="line-number">80</span><br><span class="line-number">81</span><br><span class="line-number">82</span><br><span class="line-number">83</span><br><span class="line-number">84</span><br><span class="line-number">85</span><br><span class="line-number">86</span><br><span class="line-number">87</span><br><span class="line-number">88</span><br><span class="line-number">89</span><br><span class="line-number">90</span><br><span class="line-number">91</span><br><span class="line-number">92</span><br><span class="line-number">93</span><br><span class="line-number">94</span><br><span class="line-number">95</span><br><span class="line-number">96</span><br><span class="line-number">97</span><br><span class="line-number">98</span><br><span class="line-number">99</span><br><span class="line-number">100</span><br><span class="line-number">101</span><br><span class="line-number">102</span><br><span class="line-number">103</span><br><span class="line-number">104</span><br><span class="line-number">105</span><br><span class="line-number">106</span><br><span class="line-number">107</span><br><span class="line-number">108</span><br><span class="line-number">109</span><br><span class="line-number">110</span><br><span class="line-number">111</span><br><span class="line-number">112</span><br><span class="line-number">113</span><br><span class="line-number">114</span><br><span class="line-number">115</span><br><span class="line-number">116</span><br><span class="line-number">117</span><br><span class="line-number">118</span><br><span class="line-number">119</span><br><span class="line-number">120</span><br><span class="line-number">121</span><br><span class="line-number">122</span><br><span class="line-number">123</span><br><span class="line-number">124</span><br><span class="line-number">125</span><br><span class="line-number">126</span><br><span class="line-number">127</span><br><span class="line-number">128</span><br><span class="line-number">129</span><br><span class="line-number">130</span><br><span class="line-number">131</span><br><span class="line-number">132</span><br><span class="line-number">133</span><br><span class="line-number">134</span><br><span class="line-number">135</span><br><span class="line-number">136</span><br><span class="line-number">137</span><br><span class="line-number">138</span><br><span class="line-number">139</span><br><span class="line-number">140</span><br><span class="line-number">141</span><br><span class="line-number">142</span><br><span class="line-number">143</span><br><span class="line-number">144</span><br><span class="line-number">145</span><br><span class="line-number">146</span><br><span class="line-number">147</span><br><span class="line-number">148</span><br><span class="line-number">149</span><br><span class="line-number">150</span><br><span class="line-number">151</span><br><span class="line-number">152</span><br><span class="line-number">153</span><br><span class="line-number">154</span><br><span class="line-number">155</span><br><span class="line-number">156</span><br><span class="line-number">157</span><br><span class="line-number">158</span><br><span class="line-number">159</span><br><span class="line-number">160</span><br><span class="line-number">161</span><br><span class="line-number">162</span><br><span class="line-number">163</span><br><span class="line-number">164</span><br><span class="line-number">165</span><br><span class="line-number">166</span><br><span class="line-number">167</span><br><span class="line-number">168</span><br><span class="line-number">169</span><br><span class="line-number">170</span><br><span class="line-number">171</span><br><span class="line-number">172</span><br><span class="line-number">173</span><br><span class="line-number">174</span><br><span class="line-number">175</span><br><span class="line-number">176</span><br><span class="line-number">177</span><br><span class="line-number">178</span><br><span class="line-number">179</span><br><span class="line-number">180</span><br><span class="line-number">181</span><br><span class="line-number">182</span><br><span class="line-number">183</span><br><span class="line-number">184</span><br><span class="line-number">185</span><br><span class="line-number">186</span><br><span class="line-number">187</span><br><span class="line-number">188</span><br><span class="line-number">189</span><br><span class="line-number">190</span><br><span class="line-number">191</span><br><span class="line-number">192</span><br><span class="line-number">193</span><br><span class="line-number">194</span><br><span class="line-number">195</span><br><span class="line-number">196</span><br><span class="line-number">197</span><br><span class="line-number">198</span><br><span class="line-number">199</span><br><span class="line-number">200</span><br><span class="line-number">201</span><br><span class="line-number">202</span><br><span class="line-number">203</span><br><span class="line-number">204</span><br><span class="line-number">205</span><br><span class="line-number">206</span><br><span class="line-number">207</span><br><span class="line-number">208</span><br><span class="line-number">209</span><br><span class="line-number">210</span><br><span class="line-number">211</span><br><span class="line-number">212</span><br><span class="line-number">213</span><br><span class="line-number">214</span><br><span class="line-number">215</span><br><span class="line-number">216</span><br><span class="line-number">217</span><br><span class="line-number">218</span><br><span class="line-number">219</span><br><span class="line-number">220</span><br><span class="line-number">221</span><br><span class="line-number">222</span><br><span class="line-number">223</span><br><span class="line-number">224</span><br><span class="line-number">225</span><br><span class="line-number">226</span><br><span class="line-number">227</span><br><span class="line-number">228</span><br><span class="line-number">229</span><br><span class="line-number">230</span><br><span class="line-number">231</span><br><span class="line-number">232</span><br><span class="line-number">233</span><br><span class="line-number">234</span><br><span class="line-number">235</span><br><span class="line-number">236</span><br><span class="line-number">237</span><br><span class="line-number">238</span><br><span class="line-number">239</span><br><span class="line-number">240</span><br><span class="line-number">241</span><br><span class="line-number">242</span><br><span class="line-number">243</span><br><span class="line-number">244</span><br><span class="line-number">245</span><br><span class="line-number">246</span><br><span class="line-number">247</span><br><span class="line-number">248</span><br><span class="line-number">249</span><br><span class="line-number">250</span><br><span class="line-number">251</span><br><span class="line-number">252</span><br><span class="line-number">253</span><br><span class="line-number">254</span><br><span class="line-number">255</span><br><span class="line-number">256</span><br><span class="line-number">257</span><br><span class="line-number">258</span><br><span class="line-number">259</span><br><span class="line-number">260</span><br><span class="line-number">261</span><br><span class="line-number">262</span><br><span class="line-number">263</span><br><span class="line-number">264</span><br><span class="line-number">265</span><br><span class="line-number">266</span><br><span class="line-number">267</span><br><span class="line-number">268</span><br><span class="line-number">269</span><br><span class="line-number">270</span><br><span class="line-number">271</span><br><span class="line-number">272</span><br><span class="line-number">273</span><br><span class="line-number">274</span><br><span class="line-number">275</span><br><span class="line-number">276</span><br><span class="line-number">277</span><br><span class="line-number">278</span><br><span class="line-number">279</span><br><span class="line-number">280</span><br><span class="line-number">281</span><br><span class="line-number">282</span><br><span class="line-number">283</span><br><span class="line-number">284</span><br></div></div><h3 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h3><blockquote><p>安装Ingress</p></blockquote><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code> kubectl apply <span class="token parameter variable">-f</span> ingress-controller.yaml
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>查看是否安装成功</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl get pods <span class="token parameter variable">-n</span> ingress-nginx <span class="token parameter variable">-o</span> wide
+<span class="token punctuation">[</span>root@k8s-master learnk8s<span class="token punctuation">]</span><span class="token comment"># kubectl get pods -n ingress-nginx -o wide</span>
+NAME                             READY   STATUS    RESTARTS   AGE     IP                NODE        NOMINATED NODE   READINESS GATES
+nginx-ingress-controller-rqwgj   <span class="token number">1</span>/1     Running   <span class="token number">0</span>          2m14s   <span class="token number">192.168</span>.135.132   k8s-node1   <span class="token operator">&lt;</span>none<span class="token operator">&gt;</span>           <span class="token operator">&lt;</span>none<span class="token operator">&gt;</span>
+nginx-ingress-controller-txds2   <span class="token number">1</span>/1     Running   <span class="token number">0</span>          2m14s   <span class="token number">192.168</span>.135.135   k8s-node2   <span class="token operator">&lt;</span>none<span class="token operator">&gt;</span>           <span class="token operator">&lt;</span>none<span class="token operator">&gt;</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><img src="/images/Docker/image-20230425174451412.png" alt="image-20230425174451412"></p><h3 id="配置访问规则" tabindex="-1"><a class="header-anchor" href="#配置访问规则" aria-hidden="true">#</a> 配置访问规则</h3><p>配置ingress访问规则（就是类似配置nginx的代理转发配置），让ingress将域名tomcat.tuling.com转发给后端的my-tomcat-yaml服务</p><p><img src="/images/Docker/image-20230425181346538.png" alt="image-20230425181346538"></p><p>新建一个文件<code>ingress-tomcat.yaml</code>，内容如下</p><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> networking.k8s.io/v1beta1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Ingress
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> web<span class="token punctuation">-</span>ingress
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">rules</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">host</span><span class="token punctuation">:</span> tomcat.hzz.org  <span class="token comment">#转发域名</span>
+    <span class="token key atrule">http</span><span class="token punctuation">:</span>
+      <span class="token key atrule">paths</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">path</span><span class="token punctuation">:</span> /
+        <span class="token key atrule">backend</span><span class="token punctuation">:</span>
+          <span class="token key atrule">serviceName</span><span class="token punctuation">:</span> my<span class="token punctuation">-</span>tomcat<span class="token punctuation">-</span>yaml
+          <span class="token key atrule">servicePort</span><span class="token punctuation">:</span> <span class="token number">80</span>  <span class="token comment">#service的端口</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><p>执行如下命令生效规则</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl apply <span class="token parameter variable">-f</span> ingress-tomcat.yaml
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p>查看生效的ingress规则：</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token punctuation">[</span>root@k8s-master learnk8s<span class="token punctuation">]</span><span class="token comment"># kubectl get ing</span>
+NAME          CLASS    HOSTS            ADDRESS   PORTS   AGE
+web-ingress   <span class="token operator">&lt;</span>none<span class="token operator">&gt;</span>   tomcat.hzz.org             <span class="token number">80</span>      2m30s
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>在访问机器配置host，win10客户机在目录：<code>C:\Windows\System32\drivers\etc</code>，在host里增加如下host(ingress部署的机器ip对应访问的域名)</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code> <span class="token number">192.168</span>.135.132 tomcat.hzz.org
+ <span class="token number">192.168</span>.135.135 tomcat.hzz.org
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>配置完后直接在客户机浏览器访问<a href="http://tomcat.hzz.org/" target="_blank" rel="noopener noreferrer">http://tomcat.hzz.org/<span><svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><!--[--><span class="sr-only">open in new window</span><!--]--></span></a> ，能正常访问tomcat。</p><p><img src="/images/Docker/image-20230425182529373.png" alt="image-20230425182529373"></p><h2 id="配置管理" tabindex="-1"><a class="header-anchor" href="#配置管理" aria-hidden="true">#</a> 配置管理</h2><p>ConfigMap允许你将配置文件与镜像文件分离，以使容器化的应用程序具有可移植性。接下来我们演示下如何将ConfigMap的的属性注入到Pod的环境变量中去</p><ul><li>添加配置文件<code>nginx-config.yaml</code>用于创建ConfigMap，ConfigMap名称为<code>nginx-config</code>，配置信息存放在data节点下：</li></ul><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> ConfigMap
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>config
+  <span class="token key atrule">namespace</span><span class="token punctuation">:</span> default
+<span class="token key atrule">data</span><span class="token punctuation">:</span>
+  <span class="token key atrule">nginx-env</span><span class="token punctuation">:</span> hello<span class="token punctuation">-</span>q10viking
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul><li><p>应用 nginx-config.yaml 文件创建ConfigMap</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl create <span class="token parameter variable">-f</span> nginx-config.yaml
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div></li><li><p>获取ConfigMap</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token punctuation">[</span>root@k8s-master learnk8s<span class="token punctuation">]</span><span class="token comment"># kubectl get ConfigMap</span>
+NAME           DATA   AGE
+nginx-config   <span class="token number">1</span>      42s
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p><img src="/images/Docker/image-20230425184301099.png" alt="image-20230425184301099"></p></li></ul><h3 id="使用" tabindex="-1"><a class="header-anchor" href="#使用" aria-hidden="true">#</a> 使用</h3><ul><li><p>添加配置文件 nginx-deployment.yaml 用于创建Deployment，部署一个Nginx服务，在Nginx的环境变量中引用ConfigMap中的属性</p><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Deployment
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment"># 修改label</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>deployment  <span class="token comment"># 修改deployment的名称</span>
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">1</span>  
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment"># 修改</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment">#修改</span>
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx<span class="token punctuation">:</span><span class="token number">1.10</span>
+        <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+        <span class="token key atrule">env</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> NGINX_ENV  <span class="token comment">#在nginx中设置环境变量</span>
+            <span class="token key atrule">valueFrom</span><span class="token punctuation">:</span>
+              <span class="token key atrule">configMapKeyRef</span><span class="token punctuation">:</span>
+                <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>config <span class="token comment"># 设置ConfigMap名称</span>
+                <span class="token key atrule">key</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>env <span class="token comment"># 需要取值的键</span>
+<span class="token key atrule">status</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br></div></div></li><li><p>应用配置文件文件创建Deployment</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl apply <span class="token parameter variable">-f</span> nginx-deployment.yaml
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div></li><li><p>创建成功后查看Pod中的环境变量，发现NGINX_ENV变量已经被注入了；</p><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token punctuation">[</span>root@k8s-master learnk8s<span class="token punctuation">]</span><span class="token comment"># kubectl exec nginx-deployment-7cf97748c4-bzszj -- env</span>
+<span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span>/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+<span class="token assign-left variable"><span class="token environment constant">HOSTNAME</span></span><span class="token operator">=</span>nginx-deployment-7cf97748c4-bzszj
+
+<span class="token assign-left variable">NGINX_ENV</span><span class="token operator">=</span>hello-q10viking
+
+<span class="token assign-left variable">NGINX_SERVICE_PORT</span><span class="token operator">=</span><span class="token number">80</span>
+<span class="token assign-left variable">NGINX_PORT</span><span class="token operator">=</span>tcp://10.108.139.46:80
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br></div></div></li></ul><h2 id="存储卷的使用❤️" tabindex="-1"><a class="header-anchor" href="#存储卷的使用❤️" aria-hidden="true">#</a> 存储卷的使用❤️</h2><div class="custom-container tip"><p class="custom-container-title">TIP</p><ul><li>将nginx的<code>nginx.conf</code>和<code>index.html</code>通过ConfigMap配置到nginx中</li><li>将nginx,容器的logs日志挂载到宿主机上</li></ul></div></details><h3 id="准备配置文件" tabindex="-1"><a class="header-anchor" href="#准备配置文件" aria-hidden="true">#</a> 准备配置文件</h3><blockquote><p>index.html</p></blockquote><div class="language-html ext-html line-numbers-mode"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Welcome to nginx!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+            <span class="token selector">body</span> <span class="token punctuation">{</span>
+                <span class="token property">width</span><span class="token punctuation">:</span> 35em<span class="token punctuation">;</span>
+                <span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span>
+                <span class="token property">font-family</span><span class="token punctuation">:</span> Tahoma<span class="token punctuation">,</span> Verdana<span class="token punctuation">,</span> Arial<span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Q10Viking changed this html page!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>If you see this page, the nginx web server is successfully installed and
+            working. Further configuration is required.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Q10Viking learning k8s technology :)
+            &lt;a href=\&quot;http://nginx.org/\&quot;&gt;nginx.org<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">/&gt;</span></span>
+            Commercial support is available at
+            &lt;a href=\&quot;http://nginx.com/\&quot;&gt;nginx.com<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>em</span><span class="token punctuation">&gt;</span></span>Thank you for using nginx.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>em</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br></div></div><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token punctuation">[</span>root@k8s-master html<span class="token punctuation">]</span><span class="token comment"># kubectl create configmap  nginx-index-config --from-file=index.html</span>
+configmap/nginx-index-config createdsh
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><img src="/images/Docker/image-20230426092503246.png" alt="image-20230426092503246"></p><blockquote><p>nginx.conf</p></blockquote><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code>worker_processes  1;
+		
+		events <span class="token punctuation">{</span>
+		    worker_connections  1024;
+		<span class="token punctuation">}</span>
+		
+		http <span class="token punctuation">{</span>
+		  
+		    sendfile        on;
+		    <span class="token comment">#tcp_nopush     on;</span>
+		
+		    keepalive_timeout  65;
+		    access_log /var/log/nginx/access.log; <span class="token comment"># 配置日志输出的位置</span>
+		
+		
+		    server <span class="token punctuation">{</span>
+		        listen       80;
+		        server_name  localhost;
+		        location / <span class="token punctuation">{</span>
+		            root   /usr/share/nginx/html;    <span class="token comment"># 注意位置</span>
+		            index  index.html;
+		        <span class="token punctuation">}</span>
+		
+		    <span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br></div></div><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl create configmap nginx-config-conf --from-file<span class="token operator">=</span>nginx.conf
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p><img src="/images/Docker/image-20230426162840632.png" alt="image-20230426162840632"></p><h4 id="效果" tabindex="-1"><a class="header-anchor" href="#效果" aria-hidden="true">#</a> 效果</h4><p><img src="/images/Docker/image-20230426162907214.png" alt="image-20230426162907214"></p><h3 id="部署❤️" tabindex="-1"><a class="header-anchor" href="#部署❤️" aria-hidden="true">#</a> 部署❤️</h3><p>通过存储卷，我们可以把外部数据挂载到容器中去，供容器中的应用访问，这样就算容器崩溃了，数据依然可以存在。</p><ul><li>之前我们使用Docker部署软件时是可以挂载文件的</li></ul><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token function">docker</span> run <span class="token parameter variable">-p</span> <span class="token number">80</span>:80 <span class="token parameter variable">--name</span> nginx <span class="token punctuation">\</span>
+<span class="token parameter variable">-v</span> /mydata/nginx/html:/usr/share/nginx/html <span class="token punctuation">\</span>
+<span class="token parameter variable">-v</span> /mydata/nginx/logs:/var/log/nginx  <span class="token punctuation">\</span>
+<span class="token parameter variable">-v</span> /mydata/nginx/conf:/etc/nginx <span class="token punctuation">\</span>
+<span class="token parameter variable">-d</span> nginx:1.10
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><ul><li>K8S也可以挂载文件，添加配置文件<code>nginx-volume-deployment.yaml</code>用于创建Deployment： <ul><li>将ConfigMap nginx-index-config挂载到nginx容器的<code>/usr/share/nginx/html</code>目录</li><li>将ConfigMap nginx-config-conf挂载到nginx容器的<code>/etc/nginx</code>目录</li><li>将宿主机的<code>/mydata/nginx/logs</code>挂载到nginx容器的<code>/var/log/nginx</code>目录</li></ul></li></ul><div class="language-yaml ext-yml line-numbers-mode"><pre class="language-yaml"><code><span class="token key atrule">apiVersion</span><span class="token punctuation">:</span> apps/v1
+<span class="token key atrule">kind</span><span class="token punctuation">:</span> Deployment
+<span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+  <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+    <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment"># 修改label</span>
+  <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>volume<span class="token punctuation">-</span>deployment  <span class="token comment"># 修改deployment的名称</span>
+<span class="token key atrule">spec</span><span class="token punctuation">:</span>
+  <span class="token key atrule">replicas</span><span class="token punctuation">:</span> <span class="token number">2</span>
+  <span class="token key atrule">selector</span><span class="token punctuation">:</span>
+    <span class="token key atrule">matchLabels</span><span class="token punctuation">:</span>
+      <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment"># 修改</span>
+  <span class="token key atrule">template</span><span class="token punctuation">:</span>
+    <span class="token key atrule">metadata</span><span class="token punctuation">:</span>
+      <span class="token key atrule">labels</span><span class="token punctuation">:</span>
+        <span class="token key atrule">app</span><span class="token punctuation">:</span> nginx <span class="token comment">#修改</span>
+    <span class="token key atrule">spec</span><span class="token punctuation">:</span>
+      <span class="token key atrule">containers</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">image</span><span class="token punctuation">:</span> nginx<span class="token punctuation">:</span><span class="token number">1.10</span>
+        <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx
+        <span class="token key atrule">ports</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">containerPort</span><span class="token punctuation">:</span> <span class="token number">80</span>
+        <span class="token key atrule">volumeMounts</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">mountPath</span><span class="token punctuation">:</span> /usr/share/nginx/html
+            <span class="token key atrule">name</span><span class="token punctuation">:</span> html<span class="token punctuation">-</span>volume
+          <span class="token punctuation">-</span> <span class="token key atrule">mountPath</span><span class="token punctuation">:</span> /var/log/nginx
+            <span class="token key atrule">name</span><span class="token punctuation">:</span> logs<span class="token punctuation">-</span>volume
+          <span class="token punctuation">-</span> <span class="token key atrule">mountPath</span><span class="token punctuation">:</span> /etc/nginx
+            <span class="token key atrule">name</span><span class="token punctuation">:</span> conf<span class="token punctuation">-</span>volume
+      <span class="token key atrule">volumes</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> html<span class="token punctuation">-</span>volume
+        <span class="token key atrule">configMap</span><span class="token punctuation">:</span>
+          <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>index<span class="token punctuation">-</span>config
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> logs<span class="token punctuation">-</span>volume
+        <span class="token key atrule">hostPath</span><span class="token punctuation">:</span>
+          <span class="token key atrule">path</span><span class="token punctuation">:</span> /mydata/nginx/logs
+          <span class="token key atrule">type</span><span class="token punctuation">:</span> DirectoryOrCreate
+      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> conf<span class="token punctuation">-</span>volume
+        <span class="token key atrule">configMap</span><span class="token punctuation">:</span>
+          <span class="token key atrule">name</span><span class="token punctuation">:</span> nginx<span class="token punctuation">-</span>config<span class="token punctuation">-</span>conf
+      <span class="token key atrule">restartPolicy</span><span class="token punctuation">:</span> Always
+<span class="token key atrule">status</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br><span class="line-number">41</span><br></div></div><blockquote><p>执行部署</p></blockquote><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl apply <span class="token parameter variable">-f</span> nginx-volume-deployment.yaml
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p><img src="/images/Docker/image-20230426163526571.png" alt="image-20230426163526571"></p><p><img src="/images/Docker/image-20230426163819588.png" alt="image-20230426163819588"></p><h3 id="暴露服务测试" tabindex="-1"><a class="header-anchor" href="#暴露服务测试" aria-hidden="true">#</a> 暴露服务测试</h3><blockquote><p>暴露服务</p></blockquote><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code>kubectl expose deployment nginx-volume-deployment <span class="token parameter variable">--name</span><span class="token operator">=</span>nginx-volume <span class="token parameter variable">--port</span><span class="token operator">=</span><span class="token number">80</span> <span class="token parameter variable">--type</span><span class="token operator">=</span>NodePort
+</code></pre><div class="line-numbers"><span class="line-number">1</span><br></div></div><p><img src="/images/Docker/image-20230426162015757.png" alt="image-20230426162015757"></p><blockquote><p>日志测试</p></blockquote><p><img src="/images/Docker/image-20230426174023623.png" alt="image-20230426174023623"></p><ul><li>部署在node1的nginx输出日志在node1上</li><li>部署在node2的nginx输出日志在node2上</li></ul><h2 id="小结" tabindex="-1"><a class="header-anchor" href="#小结" aria-hidden="true">#</a> 小结</h2><p><strong>Service 是 K8S 服务的核心，屏蔽了服务细节，统一对外暴露服务接口，真正做到了“微服务”</strong>。举个例子，我们的一个服务 A，部署了 3 个备份，也就是 3 个 Pod；对于用户来说，只需要关注一个 Service 的入口就可以，而不需要操心究竟应该请求哪一个 Pod。优势非常明显：<strong>一方面外部用户不需要感知因为 Pod 上服务的意外崩溃、K8S 重新拉起 Pod 而造成的 IP 变更，外部用户也不需要感知因升级、变更服务带来的 Pod 替换而造成的 IP 变化，另一方面，Service 还可以做流量负载均衡</strong></p><p>但是，Service 主要负责 K8S 集群<strong>内部的网络拓扑</strong>。集群外部需要用 Ingress 。</p><p>Ingress 是整个 K8S 集群的接入层，复杂集群内外通讯。</p><p>Ingress 和 Service 的网络拓扑关系图如下：</p><p><img src="/images/Docker/110774.png" alt="https://note.youdao.com/yws/public/resource/bc7bee305611b52d6900ba209a92bd4d/xmlnote/1E62D8F04F0D47A5A1F1720FE24E8C9A/110774"></p><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"> ← <a href="/Docker/" class="nav-link router-link-active" aria-label="Back To 目录"><!--[--><!--]--> Back To 目录 <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.04a0d472.js" defer></script><script src="/assets/js/95615.9c1b1e17.js" defer></script><script src="/assets/js/app.d9590c28.js" defer></script>
+  </body>
+</html>
